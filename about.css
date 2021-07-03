@@ -1,0 +1,344 @@
+header .Menu{
+    justify-content: space-between;
+    display: flex;
+}
+header h1 {
+    background-color:#e71010;
+    color: white;
+    font-size: xx-large;
+    font-style: oblique;
+    text-align: center;
+}
+#menu {
+    background-color: honeydew;
+    width: 15em;
+}
+.Menu option {
+    color: #e31c25;
+    font-weight: 600;
+    margin-left: 3em;
+    font-size: 2em;
+    height: 3em;
+}
+.Menu .status a {
+    color: #e31c25;
+    margin-left: 3em;
+    /* color: #2810b1; */
+    font-weight: 800;
+    display: grid;
+    height: 4.5em;
+}
+.Menu #img1 {
+    margin-right: 45em;
+    color: #e31c25;
+    font-size: 1em;
+}
+.Menu #img1 h2 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+/* ============================================ */
+
+#hm {
+    display: flex;
+    justify-content: space-between; 
+}
+#vv {
+    display: flex;   
+}
+#values {
+    margin-left: 280px;
+}
+#container {
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    background-color: #e71010;
+    font-weight: 600;
+    padding: 60px;
+}
+#hm p strong {
+    font-size: 20px;
+}
+#container h3 {
+    font-size: 2em;
+}
+#container #hm {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+#container #vv {
+    margin-bottom: 0px;
+    margin-left: 14em;
+    margin-right: 10em;
+}
+#team {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Zilla Slab', serif;
+}
+#terryimg  img {
+    padding-top: 10%;
+    border-radius: 70%;
+}
+/*#nickimg img {
+    padding-top: 10%;
+    border-radius: 70%;
+    
+    
+}
+#langaimg img {
+    padding-top: 10%;
+    border-radius: 70%;
+    
+    
+}
+*/
+/*#nickoimg img {
+    padding-top: 10%;
+    border-radius: 70%;
+    
+    
+}
+#me {
+    
+    color: white;
+}
+#him {
+    
+    color: white;
+}
+#his {
+    
+    color: white;
+} 
+    */
+
+/* #her {
+    background-color: #f0542b;
+    color: white;
+} */
+
+
+
+/* new styling */
+/* terry div */
+#terry {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    min-width: 300px;
+    max-height:400px;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+
+}
+#terry>div{
+    
+    border-radius: 4px;
+    
+
+}
+#terryimg{
+    background-color:honeydew;
+    border:grey ;
+    
+}
+#her{
+    margin-top:  -20px;
+    padding: 2px 16px;
+    background-color:honeydew;
+    color:black;
+    font-family: 'Zilla Slab', serif;
+}
+#terry:hover {
+    box-shadow: 0 8px 16px 5px rgba(209, 35, 35, 0.2);
+}
+#footer1 {
+    background-color: #e31c25;
+    height: 300px;
+    margin-top:40px;
+    color: white;
+    margin: 10px,0;
+
+}
+#form {
+    display: flex;
+    justify-content: center;
+    font-family: 'Zilla Slab', serif;
+    margin-top: 20px;
+    
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    font-size: 25px;
+}
+input {
+    height: 50px;
+    
+    
+}
+
+#footerimg {
+background-color:#e71010;
+opacity: 0.8;
+color: #fff;
+height: 150px;
+display: flex;
+justify-content: space-around;
+
+
+
+
+}
+
+
+
+h4 {
+    font-family: 'Zilla Slab', serif;
+}
+button{
+    display: flex;
+    padding: 20px;
+    background-color: honeydew;
+    color: black;
+    border-radius: 10px;
+    height: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    
+}
+button:active {
+    transform: scale(0.90);
+}
+textarea {
+    border-radius: 10px;
+}
+
+    
+
+    
+
+* {
+    box-sizing: border-box;
+    
+}
+footer {
+    background-color:honeydew;
+    margin-top: -25px;
+}
+#footer5 {display: flex;
+    justify-content: space-around;
+
+}
+#box1 ,#box2 {
+    background-color: white;
+    padding:30px 80px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px grey,-2px -2px 5px grey;
+    border-radius: 5px;
+}
+#box1 {
+    margin-left: 180px;
+    
+}
+#box2 {
+    margin-right: 180px;
+}
+h6 {
+    font-size: 1rem;
+    font-family: 'Zilla Slab', serif;
+    margin-left: 40px;
+}
+
+/*================================================================*/
+#copyright {
+    color: #fff;
+    background-color: #e31c25;
+    text-align: center;
+    font-weight: bold;
+}
+/* #contactus{
+    margin-left: 40px;
+} */
+#sponsorsimg a{
+    margin: 0px 5px;
+}
+
+/*footer {
+    display: flex;
+    /* flex-direction: column; 
+    justify-content: space-evenly;
+    background-color: honeydew; 
+    font-family: 'Zilla Slab', serif;
+    
+    
+}
+
+
+footer .social {
+    text-align: center;
+    display: inline;
+    color: rgb(19, 19, 189);
+    font-size: 18px;
+    
+}
+.social #contacts {
+    color: rgba(5, 0, 0, 0.815);
+    
+}
+.handles {
+    text-align: center;
+    height: 18px;
+    display: inline;
+    justify-content: space-between;
+} 
+
+footer .handles img {
+    
+}
+/* .copyright {
+    padding-top: 15%;
+} 
+.copyright {
+
+    text-align: center;
+    color: aliceblue;
+    background-color: #E71010;
+    
+    
+}*/
+
+
+
+
+/*@media only screen  and (min-width: 600px) {}*/
+
+@media screen and (max-width:550px){
+#terry {
+    display: flex;
+    flex-direction: column;
+}    
+    
+}
+
+
+
+
+/* {
+    border: 1px dashed lime;
+}
+/* end */
+
+
+/* end of styling */

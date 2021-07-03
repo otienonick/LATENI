@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpeg" href="./Assets/LPC.jpg">
+
+    <title>Create Account</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form class="form">
+            <div class="form-control ">
+                  <label for="username" name="username">Username</label>
+                  <input id="txtUserName" type="text" name="username" /> 
+                  <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email" name="email">Email</label>
+                <input id="txtEmail" type="email" name="email"/>
+                <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label for="pwd" name="pwd">Password</label>
+            <input id="txtPwd" type="password" name="pwd"/>
+            <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="conpwd" name="conpwd">Confirm password</label>
+        <input id="txtConPwd" type="password" name="conpwd"/>
+        <small>Error message</small>
+  </div>
+  <div class="form-conrol">
+    <button type="submit"> CREATE ACCOUNT</button>
+</div>
+        </form>
+        <div id="ready">
+        <p>Already have an account? <a href="login.html"> Login </a></p>
+        </div>
+
+    </div>
+    <button> <a href="./index.html">HOME</a></button>
+    <script src="./signup.js"></script>
+        
+ </body>
+ 
+
+</html>

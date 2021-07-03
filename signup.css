@@ -1,0 +1,79 @@
+
+body{
+    background-image: url("./Assets/pork\ live.jpg") ;
+    font-family: 'Zilla Slab', serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.container{
+    background-color:white;
+    border-radius: 4px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.form-control{
+padding: 20px 30px ;
+
+}
+
+ input{
+     display: block;
+    padding: 10px;
+    width: 90%;
+    border-radius: 4px;
+    border: 2px solid #d8d1d1;
+
+}
+.form-control.success input{
+    border: 2px solid #02F77C;
+    
+}
+.form-control.error input{
+    border: 2px solid #F01A00;
+}
+ small{
+    position: absolute;
+    margin: 3px;
+  visibility: hidden;
+  color: red;
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 10px 80px;
+    margin: auto 30px;
+    border-radius: 4px;
+    border: 2px solid red;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.header h2{
+    text-align: center;
+    background-color:red;
+    padding: 30px;
+    margin: 0;
+    color: white;
+}
+#ready{
+
+    text-align: center;
+    padding: 0px 20px;
+}
+#ready a{
+    text-decoration: none;
+    color: #1AA3FF;
+    font-size: large;
+}
+button:active{
+    transform: scale(0.90);
+}
+   

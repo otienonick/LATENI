@@ -1,0 +1,204 @@
+body {
+	background-color: honeydew;
+}
+header .Menu {
+	display: flex;
+	background-image: url(./Assets/Pork\ Hanging.webp);
+	color: rgb(238, 23, 23);
+	border: 1em double;
+	border-radius: 2em;
+	border-color: aliceblue;
+	justify-content: space-between;
+	height: 30em;
+}
+.Menu .Date {
+	display: flex;
+	margin-right:15em;
+	font-size: 2em;
+}
+.Menu #Menu a {
+	color: #e71010;
+	display: grid;
+	background-color: rgb(199, 201, 199);
+	width: 15em;
+        height: 5em;
+	font-weight: 600;
+	text-decoration: none;
+}
+ a:hover{
+	color:cadetblue;
+}
+
+/*700px width for example*/
+#Menu option {
+	color: #e71010;
+	font-size: 2em;
+	margin-left: 2em;
+        width: 500px; /*default would be inherit*/
+        height: 60px; /*just changed for example*/ 
+}
+.Date #Date button {
+	font-size: 1em;
+        width: 250px; /*default would be inherit*/
+        height: 50px;
+}
+
+/* ====================================================================== */
+
+.about {
+	display: flex;
+	margin-left: 45px;
+	text-align: center;
+	box-shadow: 0px 2px 9px grey;
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	justify-content: space-around;
+	background-color: rgb(211, 220, 228);
+}
+.about h2 {
+	font-weight: 1000;
+	font-size: 3em;
+	color: rgba(56, 56, 224, 0.884);
+}
+.about h4 {
+	color: #e71010;
+        font-size: 2em;
+	font-weight: 650;
+}
+.about ul li {
+	font-style: italic;
+	font-weight: 50;
+	margin-top: 1em;
+	font-size: 2em;
+}
+.about a {
+	color: #e71010;
+	background-color: wheat;
+	border: 2px solid;
+	box-shadow: 0px 2px 9px grey;
+	margin-bottom: 5px;
+}
+
+/* =================================================================== */
+
+.landing {
+	display: inline;
+	justify-content: space-between;
+}
+.landing .video {
+	border-color: aliceblue;
+        display: flex;
+	justify-content: space-between;
+}
+.landing .video video{
+	margin-left: 13em;
+	margin-top: 0px;
+}
+.landing .video .img {
+        display: flex;
+	margin-top: 15em;
+	margin-right: 30em;
+}
+.landing .lpc {
+	display: flex;
+        margin-left: 16em;
+	color: rgb(0, 7, 14);
+	margin-right: 20em;
+	border: 3px solid;
+	border-radius: 2em;
+	border-color: rgb(36, 6, 168);
+	box-shadow: 8em blue;
+	background-color: rgba(236, 236, 227, 0.747);
+}
+.landing .lpc h2 {
+	color: rgb(19, 19, 95);
+	font-weight: 1000;
+	font-size: 3em;
+}
+.landing .lpc p {
+	font-weight: 600;
+	margin-top: 1em;
+	font-size: 20px;
+}
+.landing .lpc li {
+	font-style: italic;
+	font-weight: 650;
+	margin-top: 1em;
+	font-size: 1em;
+}
+.landing img {
+	margin-right: 1em;
+	height: fit-content;
+}
+.customers {
+	color: rgb(253, 251, 251);
+	background-color: #e71010;
+	text-align: center;
+	font-style: italic;
+	font-size: 2em;
+}
+.comments {
+	background-color: rgb(236, 236, 227);
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 1em;
+}
+.comments h3 {
+        font-style: italic;
+	font-weight: 1000;
+	text-align: center;
+}
+.comments .comment1 {
+	box-shadow: 0px 2px 9px grey;
+	border: 2px solid;
+	border-color: gray;
+}
+.comments .comment3 {
+	box-shadow: 0px 2px 9px rgba(10, 158, 4, 0.863);
+	border: 2px solid;
+	border-color: gray;
+}
+
+/* ===================================================== */
+
+footer {
+	display: flex;
+	justify-content: space-evenly;
+}
+footer .social {
+	text-align: center;
+        display: inline;
+	color: rgb(19, 19, 189);
+}
+.social #contacts {
+	color: rgb(243, 41, 41);
+        text-shadow: 2px 2px 4px #030000;
+}
+.handles {
+	text-align: center;
+	height: 25em;
+	display: inline;
+	justify-content: space-between;
+}
+.handles {
+	text-align: center;
+	height: 25em;
+	display: inline;
+	justify-content: space-between;
+}
+.handles .media {
+	color: rgb(243, 41, 41);
+        text-shadow: 2px 2px 4px #030000;
+}
+footer .handles img {
+	height: 3em;
+	width: 3em;
+}
+
+/*========================================================*/
+.copyright {
+	text-align: center;
+	color: aliceblue;
+	background-color: #e71010;
+}
